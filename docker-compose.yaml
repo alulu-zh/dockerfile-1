@@ -1,0 +1,7 @@
+version: '2'
+services:
+  mysql:
+    image: alulu/fishing_mysql
+    ports:
+      - "3316:3306"
+
